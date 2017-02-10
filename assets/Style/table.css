@@ -3,10 +3,13 @@ th,td {
 		padding: 5px 10px;
 		width: 10px;
 	  }
-table{
+table {
 		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
 		text-align: left;
 			
 	 }
+body {
+	background-color: #755;
+	}

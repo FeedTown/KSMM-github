@@ -1,0 +1,37 @@
+body{
+	background-color: #a2d8cf;
+	margin: 0;
+	padding: 0;
+}
+#header{
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: #6a827e;
+}
+#main{
+	width: 73%;
+	float: right;
+	padding-right: 9%;	
+	background-color: #a2d8cf;
+}
+h2{
+	text-align: center;
+}
+#aside{
+	margin-right: 10px;
+	width: 12.5%;
+	padding-bottom: 590px;
+	border: 6px solid green;
+	padding-left: 50px;
+	padding-top: 35px;
+	background-color: #769b94;
+}
+#footer{
+	font-size: small;
+	background-color: #9aa5a3;
+	padding-top: 0.2px;
+	padding-bottom: 13.5px;
+	text-align: center;
+	
+}

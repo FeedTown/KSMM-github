@@ -1,0 +1,57 @@
+.mainSite{
+	text-align: center;
+}
+
+.myHeaders,.receptNav{
+	text-align: center;
+}
+
+.myHeaders,h2,h4{
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.instructions{
+	width: 37%;
+	margin-right: 30%;
+	margin-bottom: 20px;
+	float: right;
+	padding-right: 9%;
+	padding-left: 2%;
+	text-align: left;
+	background-color: #e2e5d7;
+	border: 1px solid gray;
+}
+
+body{
+	background-image: url(../Resource/sakura.png);
+	background-repeat: repeat;
+}
+
+.artAside{
+	margin-right: 10px;
+	width: 12.5%;
+	padding-bottom: 170px;
+	border: 6px solid gray;
+	padding-left: 20px;
+	padding-top: 35px;
+	padding-right: 35px;
+	margin-top: 1%;
+	margin-left: 2%;
+	background-color: #e2d78e;
+}
+
+.rating{
+    font-size:2.5em;
+    text-align:center;
+    margin-top: 2px;
+ 
+}
+.votingStars span {
+    cursor: pointer;
+}
+
+.voteRatings{
+	font-size:0.5em;
+    text-align:center;
+    margin-top: 2px;
+}

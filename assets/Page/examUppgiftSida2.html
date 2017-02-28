@@ -6,12 +6,13 @@
 		<title>Recept kladkaka</title>
 		
 		<link rel="stylesheet" type="text/css" href="../Style/examUppgift.css">
+		<meta name="viewport" content="width=device-width">
 	</head>
 	
 	<body>
 		<div class="myBakeContent">
 			
-			<header class="receptHeader">
+			<header class="myHeaders">
 				<h1>Recept på kladdkaka</h1>
 			</header>
 			
@@ -19,7 +20,13 @@
 				<a href="examUppgift.html">Tillbaka till Startsidan</a> 
 			</nav>
 			<section class="rating">
-				<p><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span></p>
+				<p>
+					<span>&star;</span>
+					<span>&star;</span>
+					<span>&star;</span>
+					<span>&star;</span>
+					<span>&star;</span>
+				</p>
 				<p class="voteRatings">Rating <strong>0</strong> of <em>0</em> votes. </p>
 			</section>
 			<main>
@@ -72,7 +79,7 @@
 					<p>En kaka är för 6-8 portioner</p>
 					<section class="amount">
 						<label>Antal kladdkakor</label>
-						<input type="number" id="numCakes" min="1" max="10">
+						<input type="number" id="numCakes" min="1" max="10" value="1">
 					</section>
 					<section>
 						<h4>Ingredienser</h4>
@@ -89,5 +96,7 @@
 				</article>	
 			</aside>		
 		</div>
+		<script type="text/javascript" src="../Script/voteRating.js"></script>
+		<script type="text/javascript" src="../Script/recept.js"></script>
 	</body>
 </html>

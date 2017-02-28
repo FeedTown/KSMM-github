@@ -1,0 +1,51 @@
+.mainSite{
+	text-align: center;
+}
+
+.receptHeader,.receptNav{
+	text-align: center;
+}
+
+.instructions{
+	width: 35%;
+	margin-right: 30%;
+	margin-bottom: 20px;
+	float: right;
+	padding-right: 9%;
+	text-align: left;
+	background-color: #e2e5d7;
+	border: 1px solid gray;
+}
+
+body{
+	background-image: url(../Resource/sakura.png);
+	background-repeat: repeat;
+}
+
+.artAside{
+	margin-right: 10px;
+	width: 12.5%;
+	padding-bottom: 170px;
+	border: 6px solid gray;
+	padding-left: 50px;
+	padding-top: 35px;
+	margin-top: 5%;
+	margin-left: 2%;
+	background-color: #e2d78e;
+}
+
+.rating{
+    font-size:2.5em;
+    text-align:center;
+    margin-top: 2px;
+ 
+}
+.votingStars span {
+    cursor: pointer;
+}
+
+.voteRatings{
+	font-size:0.5em;
+    text-align:center;
+    margin-top: 2px;
+}

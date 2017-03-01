@@ -41,17 +41,9 @@ body{
 }
 
 .rating{
-    font-size:2.5em;
+    font-size:1em;
     text-align:center;
     margin-top: 2px;
  
 }
-.votingStars span {
-    cursor: pointer;
-}
 
-.voteRatings{
-	font-size:0.5em;
-    text-align:center;
-    margin-top: 2px;
-}

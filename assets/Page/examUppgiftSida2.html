@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="descpription" content="Recept på kladdkaka">
-		<title>Recept kladkaka</title>
+		<title>Recept på kladkaka</title>
 		
 		<link rel="stylesheet" type="text/css" href="../Style/examUppgift.css">
 		<meta name="viewport" content="width=device-width">
@@ -20,14 +20,16 @@
 				<a href="examUppgift.html">Tillbaka till Startsidan</a> 
 			</nav>
 			<section class="rating">
-				<p>
-					<span>&star;</span>
-					<span>&star;</span>
-					<span>&star;</span>
-					<span>&star;</span>
-					<span>&star;</span>
+				<p id="star-list">
+					<span class="star" id="star-1">&star;</span>
+					<span class="star" id="star-2">&star;</span>
+					<span class="star" id="star-3">&star;</span>
+					<span class="star" id="star-4">&star;</span>
+					<span class="star" id="star-5">&star;</span>
 				</p>
-				<p class="voteRatings">Rating <strong>0</strong> of <em>0</em> votes. </p>
+				
+				<p>Betyg <span id="voteRatings"><span></p>
+				
 			</section>
 			<main>
 				<article class="instructions">
@@ -96,7 +98,7 @@
 				</article>	
 			</aside>		
 		</div>
-		<script type="text/javascript" src="../Script/voteRating.js"></script>
+		<script type="text/javascript" src="../Script/rating.js"></script>
 		<script type="text/javascript" src="../Script/recept.js"></script>
 	</body>
 </html>

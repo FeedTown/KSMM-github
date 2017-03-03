@@ -18,6 +18,7 @@ function setEventListeners(){
 		tmpElement.addEventListener("mouseover", mouseOnStar);
 		tmpElement.addEventListener("mouseout", mouseLeaveStar);
 	}
+	getReceptRating();
 
 };
 
